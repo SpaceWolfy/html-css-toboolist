@@ -28,7 +28,7 @@ body {
 
 .white-panel {
   margin: 50px auto;
-  height: 700px;
+  height: 600px;
   width: 800px;
   background-color: #fff;
   border-radius: 5px;
@@ -59,4 +59,57 @@ body {
 
 hr {
   border: 1px solid #f6f8f9;
+}
+
+ul {
+  list-style: none;
+}
+
+h3::before {
+  content: "\2B9F";
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+h3 {
+  margin-bottom: 12px;
+  font-weight: 900;
+  font-size: 21px;
+}
+
+main {
+  color: #444851;
+}
+
+section {
+  margin: 25px 0 0 40px;
+}
+
+li {
+  padding-bottom: 18px;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 2px; /* Da vedere */
+}
+
+.verified::before {
+  content: "\2713";
+  color: #6cc4af;
+  border-radius: 50%;
+  padding: 0 3px;
+  border: 2px solid #6cc4af;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.unverified::before {
+  content: "\2715";
+  color: #c46c6c;
+  border-radius: 50%;
+  padding: 0 3px;
+  border: 2px solid #c46c6c;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 10px;
 }
