@@ -28,10 +28,11 @@ body {
 
 .white-panel {
   margin: 50px auto;
-  height: 600px;
+  height: auto;
   width: 800px;
   background-color: #fff;
   border-radius: 5px;
+  padding-bottom: 18px;
 }
 
 .white-panel > header {
@@ -72,7 +73,6 @@ h3::before {
 }
 
 h3 {
-  margin-bottom: 12px;
   font-weight: 900;
   font-size: 21px;
 }
@@ -81,12 +81,17 @@ main {
   color: #444851;
 }
 
+section > h3:first-child {
+  margin-top: 25px;
+}
+
 section {
-  margin: 25px 0 0 40px;
+  margin-left: 40px;
 }
 
 li {
-  padding-bottom: 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   font-size: 17px;
   font-weight: 500;
   margin-left: 2px; /* Da vedere */
@@ -112,4 +117,44 @@ li {
   font-size: 10px;
   font-weight: bold;
   margin-right: 10px;
+}
+
+.buttonn {
+  display: inline-block;
+  border-radius: 30px;
+  height: 25px;
+  line-height: 25px;
+  padding: 0px 12px 0px 12px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.blue {
+  background: #47adf1;
+  border: 1px solid #47adf1;
+}
+
+.purple {
+  background: #9c72e4;
+  border: 1px solid #9c72e4;
+}
+
+.green {
+  background: #64c0a9;
+  border: 1px solid #64c0a9;
+}
+
+.orange {
+  background: #f29e33;
+  border: 1px solid #f29e33;
+}
+
+.pink {
+  background: #d863a1;
+  border: 1px solid #d863a1;
+}
+
+.yellow {
+  background: #b0c926;
+  border: 1px solid #b0c926;
 }
